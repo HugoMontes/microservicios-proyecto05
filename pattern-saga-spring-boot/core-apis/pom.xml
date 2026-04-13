@@ -29,6 +29,13 @@
 		<java.version>25</java.version>
 	</properties>
 	<dependencies>
+		<!-- SOLO LAS ANOTACIONES, no el motor de Axon -->
+		<dependency>
+			<groupId>org.axonframework</groupId>
+			<artifactId>axon-modelling</artifactId>
+			<version>4.13.0</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
