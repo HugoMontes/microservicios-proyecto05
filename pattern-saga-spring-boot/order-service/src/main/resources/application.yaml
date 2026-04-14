@@ -1,3 +1,7 @@
 spring:
   application:
     name: order-service
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
