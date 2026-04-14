@@ -1,3 +1,10 @@
+server:
+  port: 8081
+
 spring:
   application:
     name: payment-service
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
